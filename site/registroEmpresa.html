@@ -1,165 +1,155 @@
 <!DOCTYPE html>
-<!-- saved from url=(0057)file:///C:/Users/d19b2636/Desktop/registroEstudiante.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Empresa</title>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/registroestu.css">
+    <link rel="icon" href="images/logo.jfif" type="image/x-icon">
+    <title>Resgistrar Empresa</title>
 </head>
+
 <body>
-    <center>
-    <h2>Registro de empresa</h2>
-    <div class="registro_info">
-        <form method="get" action="file:///C:/Users/d19b2636/Desktop/registroEstudiante.html">
-
-          <p>Nombre de la empresa: <input type="text" name="Matricula" size="40"></p>
-
-          <p>RNC: <input type="text" name="Matricula" size="40"></p>
-
-          <p> ¿Desea que se conozaca la identidad de su empresa?:
-                          <br>
-            <input type="checkbox" name="casilla">Si
-            <input type="checkbox" name="casilla">No
-          </p>
-        
-          <p> ¿Dispone su empresa de un Departamento de Formacion dentro de la empresa?:
-            <br>
-            <input type="checkbox" name="casilla">Si
-            <input type="checkbox" name="casilla">No
-          </p>
-        
-          <p> Alcance de la empresa:
-            <br>
-            <input type="checkbox" name="casilla">Nacional/loca
-            <input type="checkbox" name="casilla">Multinacional
-          </p>
-
-          Actividad economica a la que se dedica la empresa
-          <textarea name="texto" rows="4" cols="40"></textarea> examinar
-<br>
-            Industria:
-            <select name="entradalista1">
-            <optgroup label="Entradas textuales">
-            <option>Entrada de línea</option>
-            <option selected="selected">Entrada de contraseña</option>
-             <option>Entrada multi-línea</option>
-           </optgroup>
-             </select>
-            <br>
+    <div class="container" id="advanced-search-form">
+        <h2>Registrar empresa</h2>
+        <form>
           
+            <div class="form-group">
+                <label for="last-name">Nombre de la empresa</label>
+                <input type="text" class="form-control" placeholder="Escribe el nombre de laempresa" id="nempresa">
+            </div>
+            <div class="form-group">
+              <label for="last-name">RNC</label>
+              <input type="text" class="form-control" placeholder="RNC" id="RNC">
         
-        Tamaño de la empresa:
-        <select name="entradalista1">
-        <optgroup label="Entradas textuales">
-        <option>Entrada de línea</option>
-        <option selected="selected">Entrada de contraseña</option>
-         <option>Entrada multi-línea</option>
-       </optgroup>
-         </select>
-       
-    <p>Direccion:
-        <input type="text" name="Direccion" size="40" placeholder="Escribe tu direccion">
-      </p>
-
-      <p>Sector:
-        <input type="text" name="apellidos" size="40" placeholder="Escribe el sector donde recide">
-      </p>
-      <p>Seccion:
-        <input type="text" name="Seccion" size="40" placeholder="Escribe tu seccion">
-      </p>
-
-      <p>Municipio:
-        <input type="text" name="apellidos" size="40" placeholder="Escribe el Municipio donde recide">
-      </p>
-
-      Provincia:
-        <select name="entradalista1">
-        <optgroup label="Entradas textuales">
-        <option>Entrada de línea</option>
-        <option selected="selected">Entrada de contraseña</option>
-         <option>Entrada multi-línea</option>
-       </optgroup>
-         </select>
-        
-        Pais de nacionalidad:
-      <select name="entradalista1">
-      <optgroup label="Entradas textuales">
-      <option>Entrada de línea</option>
-      <option selected="selected">Entrada de contraseña</option>
-       <option>Entrada multi-línea</option>
-     </optgroup>
-       </select>
-
-      <p>Telefono principal:
-        <input type="text" name="Direccion" size="40" placeholder="809-337-4697">
-      </p>
-
-      <p>Telefono directo:
-        <input type="text" name="Direccion" size="40" placeholder="809-337-4697">
-      </p>
-     
-      <p>Email:
-        <input type="text" name="Direccion" size="40" placeholder="anacabrera@gmail.com">
-      </p>
-      <p>Confirmacion de email:
-        <input type="text" name="Direccion" size="40" placeholder="anacabrera@gmail.com">
-      </p>
-      <p>Elija una contraseña: <input type="password" name="password" minlength="6"></p>
-
-      <p>Confirme contraseña: <input type="password" name="password" minlength="6"></p>
-     
-      <p>Contacto dentro de la empresa:
-        <input type="text" name="Direccion" size="40" placeholder="">
-      </p>
-
-      <p>Telefono:
-        <input type="text" name="Direccion" size="40" placeholder="809-337-4697">
-      </p>
-
-      <p>Extencion de telefono:
-        <input type="text" name="Direccion" size="40" placeholder="">
-      </p>
-    
-      <p>Correo:
-        <input type="text" name="Direccion" size="40" placeholder="">
-      </p>
-      <br>
-
+        </div>
+        <div class="form-group">
+            <label>¿Desea que se conozca la identidad de su empresa?</label>
+            <div class="radio">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio">Si</label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio">No</label>
+        </div>
+      </div>
+      <div class="form-group">
+          <label>¿Dispone su empresa de un Departamento de Formación dentro de la empresa?</label>
+          <div class="radio">
+              <label class="radio-inline">
+                  <input type="radio" name="optradio">Si</label>
+              <label class="radio-inline">
+                  <input type="radio" name="optradio">No</label>
       
-
+              </div>
+      </div>
+      <div class="form-group">
+        <label>Alcance de la empresa</label>
+        <div class="radio">
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Nacional/local</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Multinacional</label>
     
+            </div>
+    </div>
+    <div class="form-group">
+      <label for="age">Actividad economica a a la que se dedica la empresa:</label>
+      <input type="text" class="form-control" placeholder="actividad" id="actividad">
+  </div>
 
-     
-</form></div>
-</center>
+            <div class="form-group">
+                <label for="country">Industria </label><br>
+                <select name="entradalista1">
+                    <optgroup label="Años">
+                      <option selected="selected"></option>
+                    <option>Agricola</option>
+                    <option>Comercio</option>
+                     <option>Ganaderia</option>
+                     <option>Industria de extraccion</option>
+                     <option>Industria de manofactura</option>
+                     <option>Servicios</option>
+                     <option>Otros</option>
 
-<style>
-    body{
-    background-color:whitesmoke;
-    margin: 15px;
-    padding: 15px;
-}
-div{
-   height: 500px; width: 1000px;
-   display: inline-table;
-   border-radius: 15px;
-  background-color: #0066ff;
-  line-height: 20px;
- }
- .registro_info{
-   line-height: 35px;
- }
- p{ 
-   display: table-footer-group; 
-   vertical-align: center;
- }
-.site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  text-transform: uppercase;
-  line-height: 1;
-  font-family: 'Raleway';
-  color: white;
-}
-</style>
-</body></html>
+                    </optgroup>
+                </select>
+            </div>
+          
+            <div class="form-group">
+                <label for="number">Tamaño de la empresa</label>
+                <select name="entradalista1">
+                <optgroup label="tamaño">
+                    <option selected="selected"></option>
+                    <option>Micro</option>
+                    <option>Pequeña</option>
+                     <option>Mediana</option>
+                     <option>Grande</option>
+                   </optgroup>
+                     </select>
+            </div>
+            <div class="form-group">
+                <label for="age">Direccion</label>
+                <input type="text" class="form-control" placeholder="Direccion" id="direccion">
+            </div>
+            <div class="form-group">
+              <label for="sector">Sector</label>
+              <input type="text" class="form-control" placeholder="sector al que perteneces" id="sector">
+          </div>
+          <div class="form-group">
+            <label for="municipio">Municipio</label>
+            <input type="text" class="form-control" placeholder="municipio al que perteneces" id="municipio">
+        </div>
+        <div class="form-group">
+          <label for="Provincia">Provincia</label><br>
+          <select name="entradalista1">
+              <optgroup label="Entradas textuales">
+              <option>La vega</option>
+              <option selected="selected">Santiago</option>
+              
+             </optgroup>
+               </select>
+      </div>
+            <div class="form-group">
+                <label for="email">Pais donde opera la empresa</label>
+                <select name="entradalista1">
+                    <optgroup label="Entradas textuales">
+                    <option selected="selected">Republica Dominicana</option>
+              
+                   </optgroup>
+                     </select>
+       </div>
+            
+            <div class="form-group">
+                <label for="nombre">Telfono principal</label>
+                <input type="text" class="form-control" placeholder="telefono principal" id="telefonop">
+            </div>
+            <div class="form-group">
+                <label for="apellidos">Telefono directo</label>
+                <input type="text" class="form-control" placeholder="telefono directo" id="telefonod">
+            </div>
+           
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" placeholder="correo electronico" id="email">
+            </div>
+            <div class="form-group">
+                <label for="cemail">Confirmacion de email</label>
+                <input type="email" class="form-control" placeholder="confirme su correo electronico" id="emailc">
+            </div>
+            <div class="form-group">
+                <label for="contraseña">Elija una contraseña</label>
+                <input type="password" class="form-control" placeholder="escriba su contraseña" id="contraseña">
+            </div>
+            <div class="form-group">
+                <label for="contraseñac">Confirme contraseña</label>
+                <input type="password" class="form-control" placeholder="confirme su contraseña" id="contraseñac">
+            </div>
+            
+            <div class="clearfix"></div>
+            <button type="submit" class="btn btn-info btn-lg btn-responsive" id="search">  Registrarse</button>
+            <a href="vacante.html">Registrar Vacante</a>
+        </form>
+    </div>
+</body>
+
+</html>

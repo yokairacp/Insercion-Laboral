@@ -1,0 +1,94 @@
+html{
+    background:rgb(72, 142, 247) ;
+	background-size: cover;
+    min-height: 100%;
+}
+
+body{
+    background:none;
+}
+
+#advanced-search-form{
+    background-color: rgba(255, 255, 255, 0.377);
+    max-width: 800px;
+    margin: 160px auto 0;
+    padding: 10px;
+    color: #8b8e85;
+    box-shadow: 6px 6px 6px rgba(101, 110, 109, 0.2);
+    
+}
+
+#advanced-search-form h2{
+    padding-bottom: 20px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: rgb(255, 247, 247);
+    font-family: monospace;
+}
+
+#advanced-search-form hr{
+    margin-top: 38px;
+    margin-bottom: 54px;
+    margin-left:3px;
+    border: 1px solid #cccccc;
+
+}
+
+#advanced-search-form .form-group{
+	margin-bottom: 20px;
+    margin-left:20px;
+	width: 30%;
+    float:left;
+    text-align: left;
+    color: rgb(5, 4, 17);
+}
+
+#advanced-search-form .form-control{
+    padding: 12px 0px;
+    height: auto;
+    border-radius: 2px;
+}
+
+#advanced-search-form .radio-inline{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#advanced-search-form .gender{
+    width: 30%;
+    margin-top: 30px;
+    padding-left: 20px
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#advanced-search-form .btn{
+    width: 30%;
+    margin: 20px auto 0;
+    display: block;
+    outline: none;
+    align:center;
+    color: #000;
+    background-color: rgba(255, 166, 0, 0.568);
+}
+
+@media screen and (max-width: 800px){
+    #advanced-search-form .form-group{
+        width: 45%;
+    }
+
+    #advanced-search-form{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    #advanced-search-form .form-group{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #advanced-search-form h2{
+        text-align: center;
+    }
+}

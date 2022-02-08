@@ -624,7 +624,8 @@ hr {
 	font-size: 14px;
 	line-height: 1.2;
 	letter-spacing: .16em;
-	color: #a3a3a3;
+	color: #fa9120ee;
+	
 }
 
 /*
@@ -6792,7 +6793,7 @@ html:not(.tablet):not(.mobile) .thumb-ruby:hover .thumb-ruby__text {
 	justify-content: center;
 	z-index: 1;
 	padding: 30px;
-	background-color: rgba(32, 74, 67, 0.3);
+	background-color: rgba();
 }
 
 .thumb-ann__caption::before {
@@ -6832,7 +6833,7 @@ html:not(.tablet):not(.mobile) .thumb-ruby:hover .thumb-ruby__text {
 	transform: translateX(-50%);
 	height: 3px;
 	width: 50px;
-	background: #ffffff;
+	background: #2091fa;
 }
 
 * + .thumb-ann {
@@ -9270,11 +9271,7 @@ span[class*='box-width'] {
 		margin-right: auto;
 		padding: 10px 20px;
 		color: #ffffff;
-<<<<<<< HEAD
 		background: #15a7fc;
-=======
-		background: #fc6d35;
->>>>>>> 9b1c22ff92989657d80e1908a879b415cd3fc0d9
 		box-shadow: none;
 		border: 0;
 	}
