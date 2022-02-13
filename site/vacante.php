@@ -29,28 +29,29 @@
                 <input type="text" class="form-control" placeholder="" name="funciones">
             </div>
             <div class="form-group">
-                <label for="apellidos">Sueldo</label>
-                <input type="text" class="form-control" placeholder="Sueldo" name="sueldo">
+                <label for="apellidos">sueldo</label>
+                <input type="text" class="form-control" placeholder="ubicacion" name="sueldo">
             </div>
             <div class="form-group">
                 <label for="apellidos">Ubicacion</label>
                 <input type="text" class="form-control" placeholder="ubicacion" name="ubicacion">
             </div>
-           <div class="form-group">
-               <label>Tipo de contrato</label>
-               <div class="radio">
-            <label class="radio-inline">
-             <input type="radio" name="optraradio"> Temporal</label>
-             <label class="radio-inline">
-              <input type="radio" name="optraradio"> Fijo</label>
-               </div>
-           </div>
-            <div class="form-group">
-                <label for="apellidos">Horario:</label>
-                <input type="text" class="form-control" placeholder="horario" name="horario">
-            </div>
             
-
+        <div class="form-group">
+            <label>Tipo de contrato</label>
+            <select name="optraradio">
+                    <optgroup label="Entradas textuales">
+                    <option>Temporal</option>
+                     <option>Fijo</option>
+                   </optgroup>
+</select>
+        
+      </div>
+                
+                <div class="form-group">
+                <label for="direccion">Horario</label>
+                <input type="text" class="form-control" placeholder="Horario" name="Horario">
+            </div>
             <div class="form-group">
                 <label for="sector">Correo al que se debe enviar el curriculum:
                 </label>
