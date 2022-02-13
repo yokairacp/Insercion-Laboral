@@ -122,7 +122,7 @@
        </div>
             
             <div class="form-group">
-                <label for="nombre">Telfono principal</label>
+                <label for="nombre">Telefono principal</label>
                 <input type="text" class="form-control" placeholder="telefono principal" name="telefonop">
             </div>
             <div class="form-group">

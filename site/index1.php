@@ -20,6 +20,7 @@ $vacante = "SELECT * FROM vacante";
       <div class="table__header">Sueldo</div>
       <div class="table__header">Ubicación</div>
       <div class="table__header">Tipo de contrato</div>
+      <div class="table__header">Horario</div>
       <div class="table__header">Correo de curriculum</div>
       <div class="table__header">Persona de contacto</div>
       <div class="table__header">Teléfono</div>
