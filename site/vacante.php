@@ -13,32 +13,28 @@
 <body>
     <div class="container" id="advanced-search-form">
         <h2>Vacante</h2>
-        <form>
-
-            
-          
-            
+        <form action="insertar.php" method="POST" class="form_contact">
            
             <div class="form-group">
                 <label for="age">Nombre de la empresa</label>
-                <input type="text" class="form-control" placeholder="nombre de la  empresa" id="nemprsa">
+                <input type="text" class="form-control" placeholder="nombre de la  empresa" name="nempresa">
             </div>
             <div class="form-group">
                 <label for="age">Nombre del puesto</label>
-                <input type="text" class="form-control" placeholder="Nombre del puesto" id="npuesto">
+                <input type="text" class="form-control" placeholder="Nombre del puesto" name="npuesto">
             </div>
            
             <div class="form-group">
                 <label for="nombre">Funciones o perfil del puesto</label>
-                <input type="text" class="form-control" placeholder="" id="funciones">
+                <input type="text" class="form-control" placeholder="" name="funciones">
             </div>
             <div class="form-group">
                 <label for="apellidos">Sueldo</label>
-                <input type="text" class="form-control" placeholder="Sueldo" id="Sueldo">
+                <input type="text" class="form-control" placeholder="Sueldo" name="sueldo">
             </div>
             <div class="form-group">
                 <label for="apellidos">Ubicacion</label>
-                <input type="text" class="form-control" placeholder="ubicacion" id="ubicacion">
+                <input type="text" class="form-control" placeholder="ubicacion" name="ubicacion">
             </div>
            <div class="form-group">
                <label>Tipo de contrato</label>
@@ -51,23 +47,23 @@
            </div>
             <div class="form-group">
                 <label for="apellidos">Horario:</label>
-                <input type="text" class="form-control" placeholder="horario" id="horario">
+                <input type="text" class="form-control" placeholder="horario" name="horario">
             </div>
             
 
             <div class="form-group">
                 <label for="sector">Correo al que se debe enviar el curriculum:
                 </label>
-                <input type="text" class="form-control" placeholder="" id="correocurriculum">
+                <input type="text" class="form-control" placeholder="" name="correocurriculum">
             </div>
             <div class="form-group">
                 <label for="municipio">Persona de Contacto</label>
-                <input type="text" class="form-control" placeholder="" id="personacontacto">
+                <input type="text" class="form-control" placeholder="" name="personacontacto">
             </div>
             
             <div class="form-group">
                 <label for="movil">Telefono </label>
-                <input type="text" class="form-control" placeholder="telefono" id="telefono">
+                <input type="text" class="form-control" placeholder="telefono" name="telefono">
             </div>
            
            

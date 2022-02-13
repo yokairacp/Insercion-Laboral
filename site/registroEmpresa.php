@@ -13,54 +13,52 @@
 <body>
     <div class="container" id="advanced-search-form">
         <h2>Registrar empresa</h2>
-        <form>
-          
-            <div class="form-group">
+        <form action="insertar2.php" method="POST" class="form_contact">
+          <div class="form-group">
                 <label for="last-name">Nombre de la empresa</label>
-                <input type="text" class="form-control" placeholder="Escribe el nombre de laempresa" id="nempresa">
+                <input type="text" class="form-control" placeholder="Escribe el nombre de laempresa" name="nempresa">
             </div>
             <div class="form-group">
               <label for="last-name">RNC</label>
-              <input type="text" class="form-control" placeholder="RNC" id="RNC">
+              <input type="text" class="form-control" placeholder="RNC" name="rnc">
         
         </div>
         <div class="form-group">
             <label>¿Desea que se conozca la identidad de su empresa?</label>
-            <div class="radio">
-                <label class="radio-inline">
-                    <input type="radio" name="optradio">Si</label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio">No</label>
-        </div>
+            <select name="identidad">
+                    <optgroup label="Entradas textuales">
+                    <option>Si</option>
+                     <option>No</option>
+                   </optgroup>
+</select>
+        
       </div>
       <div class="form-group">
           <label>¿Dispone su empresa de un Departamento de Formación dentro de la empresa?</label>
-          <div class="radio">
-              <label class="radio-inline">
-                  <input type="radio" name="optradio">Si</label>
-              <label class="radio-inline">
-                  <input type="radio" name="optradio">No</label>
-      
-              </div>
+          <select name="departamento">
+                    <optgroup label="Entradas textuales">
+                    <option>Si</option>
+                     <option>No</option>
+                   </optgroup>
+                   </select>
       </div>
       <div class="form-group">
         <label>Alcance de la empresa</label>
-        <div class="radio">
-            <label class="radio-inline">
-                <input type="radio" name="optradio">Nacional/local</label>
-            <label class="radio-inline">
-                <input type="radio" name="optradio">Multinacional</label>
-    
-            </div>
+        <select name="alcance">
+                    <optgroup label="Entradas textuales">
+                    <option>Nacional/local</option>
+                     <option>Multinacional</option>
+                   </optgroup>
+                   </select>
     </div>
     <div class="form-group">
       <label for="age">Actividad economica a a la que se dedica la empresa:</label>
-      <input type="text" class="form-control" placeholder="actividad" id="actividad">
+      <input type="text" class="form-control" placeholder="actividad" name="actividad">
   </div>
 
             <div class="form-group">
                 <label for="country">Industria </label><br>
-                <select name="entradalista1">
+                <select name="industria">
                     <optgroup label="Años">
                       <option selected="selected"></option>
                     <option>Agricola</option>
@@ -77,7 +75,7 @@
           
             <div class="form-group">
                 <label for="number">Tamaño de la empresa</label>
-                <select name="entradalista1">
+                <select name="tamaño">
                 <optgroup label="tamaño">
                     <option selected="selected"></option>
                     <option>Micro</option>
@@ -89,19 +87,23 @@
             </div>
             <div class="form-group">
                 <label for="age">Direccion</label>
-                <input type="text" class="form-control" placeholder="Direccion" id="direccion">
+                <input type="text" class="form-control" placeholder="Direccion" name="direccion">
             </div>
             <div class="form-group">
               <label for="sector">Sector</label>
-              <input type="text" class="form-control" placeholder="sector al que perteneces" id="sector">
+              <input type="text" class="form-control" placeholder="sector al que perteneces" name="sector">
+          </div>
+          <div class="form-group">
+              <label for="sector">Seccion</label>
+              <input type="text" class="form-control" placeholder="" name="seccion">
           </div>
           <div class="form-group">
             <label for="municipio">Municipio</label>
-            <input type="text" class="form-control" placeholder="municipio al que perteneces" id="municipio">
+            <input type="text" class="form-control" placeholder="municipio al que perteneces" name="municipio">
         </div>
         <div class="form-group">
           <label for="Provincia">Provincia</label><br>
-          <select name="entradalista1">
+          <select name="provincia">
               <optgroup label="Entradas textuales">
               <option>La vega</option>
               <option selected="selected">Santiago</option>
@@ -111,7 +113,7 @@
       </div>
             <div class="form-group">
                 <label for="email">Pais donde opera la empresa</label>
-                <select name="entradalista1">
+                <select name="opera">
                     <optgroup label="Entradas textuales">
                     <option selected="selected">Republica Dominicana</option>
               
@@ -121,28 +123,36 @@
             
             <div class="form-group">
                 <label for="nombre">Telfono principal</label>
-                <input type="text" class="form-control" placeholder="telefono principal" id="telefonop">
+                <input type="text" class="form-control" placeholder="telefono principal" name="telefonop">
             </div>
             <div class="form-group">
                 <label for="apellidos">Telefono directo</label>
-                <input type="text" class="form-control" placeholder="telefono directo" id="telefonod">
+                <input type="text" class="form-control" placeholder="telefono directo" name="telefonod">
             </div>
            
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" placeholder="correo electronico" id="email">
+                <input type="email" class="form-control" placeholder="correo electronico" name="email">
             </div>
             <div class="form-group">
                 <label for="cemail">Confirmacion de email</label>
-                <input type="email" class="form-control" placeholder="confirme su correo electronico" id="emailc">
+                <input type="email" class="form-control" placeholder="confirme su correo electronico" name="emailc">
             </div>
             <div class="form-group">
                 <label for="contraseña">Elija una contraseña</label>
-                <input type="password" class="form-control" placeholder="escriba su contraseña" id="contraseña">
+                <input type="password" class="form-control" placeholder="escriba su contraseña" name="contraseña">
             </div>
             <div class="form-group">
                 <label for="contraseñac">Confirme contraseña</label>
-                <input type="password" class="form-control" placeholder="confirme su contraseña" id="contraseñac">
+                <input type="password" class="form-control" placeholder="confirme su contraseña" name="contraseñac">
+            </div>
+            <div class="form-group">
+                <label for="contraseña">Telefono y extension  de la empresa</label>
+                <input type="text" class="form-control" placeholder="escriba el telefono  y la extension de  la empresa" name="ext">
+            </div>
+            <div class="form-group">
+                <label for="contraseñac">Correo de la empresa</label>
+                <input type="email" class="form-control" placeholder="escriba el correo de la empresa" name="correoempresa">
             </div>
             
             <div class="clearfix"></div>

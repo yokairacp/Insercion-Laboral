@@ -51,7 +51,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   
-                   <div class="rd-navbar-brand"><a class="brand" href="index.html">
+                   <div class="rd-navbar-brand"><a class="brand" href="index.php">
                     <div class="brand__name"><img src="images/.jpg">
                     </div><span class="brand__slogan">OILP-IPISA</span></a></div>
               </div>
@@ -66,13 +66,13 @@
                 </div>
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
-                  <li class="active"><a href="index.html">Inicio<span></span><span></span><span></span><span></span></a>
+                  <li class="active"><a href="index.php">Inicio<span></span><span></span><span></span><span></span></a>
                   </li>
-                  <li><a href="login.html">Inicia sesion<span></span><span></span><span></span><span></span></a>
+                  <li><a href="login.php">Inicia sesion<span></span><span></span><span></span><span></span></a>
                   </li>
-                  <li><a href="typography.html">registrate<span></span><span></span><span></span><span></span></a>
+                  <li><a href="typography.php">registrate<span></span><span></span><span></span><span></span></a>
                   </li>
-                    <li><a href="contact-us.html">Contacto<span></span><span></span><span></span><span></span></a>
+                    <li><a href="contact-us.php">Contacto<span></span><span></span><span></span><span></span></a>
                   </li>
                 </ul>
               </div>
@@ -145,7 +145,7 @@
                   <p class="q">Buenos Cristianos y Honrados Ciudadanos</p>
                 </article>
                 <div class="divider wow fadeInLeftSmall" data-wow-delay=".2s"></div>
-                <p class="wow fadeInLeftSmall" data-wow-delay=".3s">El Instituto Politécnico Industrial de Santiago, IPISA, fue creado, por la necesidad que tenía el empresariado de la Región Norte, de adquirir técnicos calificados y cualificados.</p><a class="button button-primary-outline button-ujarak button-size-1 wow fadeInLeftSmall" href="about-me.html" data-wow-delay=".4s">Leer Mas</a>
+                <p class="wow fadeInLeftSmall" data-wow-delay=".3s">El Instituto Politécnico Industrial de Santiago, IPISA, fue creado, por la necesidad que tenía el empresariado de la Región Norte, de adquirir técnicos calificados y cualificados.</p><a class="button button-primary-outline button-ujarak button-size-1 wow fadeInLeftSmall" href="about-me.php" data-wow-delay=".4s">Leer Mas</a>
               </div>
             </div>
           </div>
@@ -197,51 +197,64 @@
             </section>
 
 
-      <!-- areas-->
+      <!-- galery-->
       <section class="section section-md bg-white text-center">
-        <div class="shell-fluid">
-          <p class="heading-1">Areas </p>
-          <div class="isotope thumb-ruby-wrap wow fadeIn" data-isotope-layout="masonry" data-isotope-group="gallery" data-lightgallery="group">
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-2 thumb-mixed_md" href="images/galeria1.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="images/gallery-image-1-440x327.jpg" alt="" width="440" height="327"/>
-                        <div class="thumb-ruby__caption"> 
-                          <p class="thumb-ruby__title heading-3">Image #</p>
-                          <p class="thumb-ruby__text"></p>
-                        </div></a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-3 thumb-mixed_md" href="images/galeria 2.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="images/gallery-image-9-444x683.jpg" alt="" width="444" height="683"/>
-                        <div class="thumb-ruby__caption"> 
-                          <p class="thumb-ruby__title heading-3">Image #</p>
-                          <p class="thumb-ruby__text"></p>
-                        </div></a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-2 thumb-mixed_md" href="images/galeria 3.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="images/gallery-image-15-440x327.jpg" alt="" width="440" height="327"/>
-                        <div class="thumb-ruby__caption"> 
-                          <p class="thumb-ruby__title heading-3">Image #</p>
-                          <p class="thumb-ruby__text"></p>
-                        </div></a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-3 thumb-mixed_md" href="images/galeria 4.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="images/gallery-image-10-444x683.jpg" alt="" width="444" height="683"/>
-                        <div class="thumb-ruby__caption"> 
-                          <p class="thumb-ruby__title heading-3">Image #</p>
-                          <p class="thumb-ruby__text"></p>
-                        </div></a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-2 thumb-mixed_md" href="images/gallery-image-14-1200x800-original.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="images/gallery-image-14-440x327.jpg" alt="" width="440" height="327"/>
-                        <div class="thumb-ruby__caption"> 
-                          <p class="thumb-ruby__title heading-3">Image #</p>
-                          <p class="thumb-ruby__text"></p>
-                        </div></a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-2 thumb-mixed_md" href="images/galeria 4.jpg" data-lightgallery="item"><img class="thumb-ruby__image" sralt="" width="440" height="327"/>
-                        <div class="thumb-ruby__caption"> 
-                          <p class="thumb-ruby__title heading-3">Image #</p>
-                          <p class="thumb-ruby__text"></p>
-                        </div></a>
-              </div>
-            </div>
-          </div>
-        </div>
+
+      <h1> Talleres </h1>
+      <div class="tz-gallery">
+
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/galeria 3.jpg " width="100" heigh="100"alt="Bridge">
+        </a>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/galeria5.jpg" width="100" heigh="100" alt="Tunnel">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/galeria1.jpg" width="100" heigh="100"alt="Coast">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/galeria8.jpg"width="100" heigh="100" alt="Rails">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/sobre.png" alt="Sky">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/galeria6.png" width="100" heigh="100"alt="Traffic">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/galeria7.jpg"width="100" heigh="100" alt="Rocks">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/galeria 2.jpg"width="100" heigh="100" alt="Benches">
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="">
+            <img src="images/galeria 4.jpg" width="100" heigh="100"alt="Sky">
+        </a>
+    </div>
+   
+</div>
+
+</div>
+
+</div>
       </section>
 
       <!-- Blog-->
@@ -333,7 +346,7 @@
         <div class="shell">
           <div class="range range-sm-center">
             <div class="cell-sm-10 cell-md-8 cell-lg-6">
-              <!-- Brand--><a class="brand" href="index.html">
+              <!-- Brand--><a class="brand" href="index.php">
                 <div class="brand__name"><img src="images/LOGOIPI.jpg" alt="" width="50" height="35"/>
                 </div><span class="brand__slogan">OILP-IPISA</span></a>
                     <!-- RD Mailform-->

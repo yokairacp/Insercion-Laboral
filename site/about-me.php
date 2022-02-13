@@ -50,7 +50,7 @@
                 <div class="rd-navbar-panel">
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.html">
+                  <div class="rd-navbar-brand"><a class="brand" href="index.php">
                       <div class="brand__name"><img class="brand__logo-dark" src="images/" alt="" width="100" height="15"/><img class="brand__logo-light" src="images/lo.png" alt="" width="100" height="20"/>
                       </div><span class="brand__slogan">OILP-IPISA</span></a></div>
                 </div>
@@ -66,13 +66,13 @@
                   
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
-                  <li><a href="index.html">Inicio<span></span><span></span><span></span><span></span></a>
+                  <li><a href="index.php">Inicio<span></span><span></span><span></span><span></span></a>
                   </li>
-                  <li><a href="login.html">Inicia sesion<span></span><span></span><span></span><span></span></a>
+                  <li><a href="login.php">Inicia sesion<span></span><span></span><span></span><span></span></a>
                   </li>
-                  <li><a href="typography.html">registrate<span></span><span></span><span></span><span></span></a>
+                  <li><a href="typography.php">registrate<span></span><span></span><span></span><span></span></a>
                   </li>
-                    <li><a href="contact-us.html">Contacto<span></span><span></span><span></span><span></span></a>
+                    <li><a href="contact-us.php">Contacto<span></span><span></span><span></span><span></span></a>
                   </li>
                 </ul>
               </div>
@@ -171,7 +171,7 @@
         <div class="shell">
           <div class="range range-sm-center">
             <div class="cell-sm-10 cell-md-8 cell-lg-6">
-              <!-- Brand--><a class="brand" href="index.html">
+              <!-- Brand--><a class="brand" href="index.php">
                 <div class="brand__name"><img src="images/LOGOIPI.jpg" alt="" width="50" height="35"/>
                 </div><span class="brand__slogan">OILP-IPISA</span></a>
                     <!-- RD Mailform-->

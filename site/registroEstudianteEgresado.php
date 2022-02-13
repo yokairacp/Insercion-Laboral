@@ -13,33 +13,38 @@
 <body>
     <div class="container" id="advanced-search-form">
         <h2>Registrate Estudiante o egresado</h2>
-        <form>
+        <form action="insertar1.php" method="POST" class="form_contact">
             <div class="form-group">
                 <label for="first-name">Institucion educativa a la que perteneces</label>
-                <select name="entradalista1">
+                <select name="institucuin">
                     <optgroup label="Instituciones">
-                    <option>NONE</option>
+                    <option></option>
                     <option selected="selected">IPISA</option>
                    </optgroup>
                      </select>
             </div>
             <div class="form-group">
                 <label for="last-name">Matricula</label>
-                <input type="text" class="form-control" placeholder="" id="matricula">
+                <input type="text" class="form-control" placeholder="" name="matricula">
             </div>
             <div class="form-group">
                 <label for="country">Año de graduacion </label><br>
-                <select name="entradalista1">
+                <select name="graduacion">
                     <optgroup label="Años">
-                      <option selected="selected">NONE</option>
-                    <option>1988-1990</option>
-                    <option>1990-1991</option>
-                     <option>1991-1992</option>
-                     <option>1992-1993</option>
-                     <option>1993-1994</option>
-                     <option>1994-1995</option>
-                     <option>1995-1996</option>
-                     <option>1996-1997</option>
+                      <option selected="selected">  </option>
+                    <option></option>
+                    <option>2006-2011</option>
+                     <option>2007-2012</option>
+                     <option>2008-2013</option>
+                     <option>2009-2014</option>
+                     <option>2010-2015</option>
+                     <option>2011-2016</option>
+                     <option>2012-2017</option>
+                     <option>2013-2018</option>
+                     <option>2014-2019</option>
+                     <option>2015-2020</option>
+                     <option>2016-2021</option>
+
                     </optgroup>
                 </select>
             </div>
@@ -48,7 +53,7 @@
                 <label for="number">Curso</label>
                 <select name="entradalista1">
                 <optgroup label="Curso">
-                    <option selected="selected">NONE</option>
+                    <option selected="selected">  </option>
                     <option>3RO</option>
                     <option>4TO</option>
                      <option>5TO</option>
@@ -58,128 +63,142 @@
             </div>
             <div class="form-group">
                 <label for="age">Cedula de identidad</label>
-                <input type="text" class="form-control" placeholder="cedula" id="cedula">
+                <input type="text" class="form-control" placeholder="cedula" name="cedula">
             </div>
             <div class="form-group">
                 <label for="email">Carrera Tecnica</label>
-                <select name="entradalista1">
+                <select name="carrera">
                     <optgroup label="Entradas textuales">
-                    <option>Entrada de línea</option>
-                    <option selected="selected">Entrada de contraseña</option>
-                     <option>Entrada multi-línea</option>
+                    <option>contabilidad</option>
+                    <option>Informatica</option>
+                     <option>Confeccion y patronaje</option>
+                     <option>Ebanisteria</option>
+                    <option>Electronica</option>
+                     <option>Mecanica Industrial</option>
+                    <option>Electricidad</option>
+                     <option>Mecanica automotriz</option>
                    </optgroup>
                      </select>
             </div>
             <div class="form-group">
                 <label for="category">Tecnico Basico</label>
-                <select name="entradalista1">
-                    <optgroup label="Entradas textuales">
-                    <option>Entrada de línea</option>
-                    <option selected="selected">Entrada de contraseña</option>
-                     <option>Entrada multi-línea</option>
+                <select name="tecnico">
+                <optgroup label="Entradas textuales">
+                    <option>contabilidad</option>
+                    <option>Informatica</option>
+                     <option>Confeccion y patronaje</option>
+                     <option>Ebanisteria</option>
+                    <option>Electronica</option>
+                     <option>Mecanica Industrial</option>
+                    <option>Electricidad</option>
+                     <option>Mecanica automotriz</option>
                    </optgroup>
                      </select>
             </div>
             
             <div class="form-group">
                 <label for="nombre">Nombres</label>
-                <input type="text" class="form-control" placeholder="Escribe tus nombres" id="nombres">
+                <input type="text" class="form-control" placeholder="Escribe tus nombres" name="nombres">
             </div>
             <div class="form-group">
                 <label for="apellidos">Apellidos</label>
-                <input type="text" class="form-control" placeholder="Escribe tus apellidos" id="apellidos">
+                <input type="text" class="form-control" placeholder="Escribe tus apellidos" name="apellidos">
             </div>
             <div class="form-group">
                 <label for="nacimiento">Fecha de nacimiento</label>
-                <input type="date" class="form-control" placeholder="" id="fecha_de_nacimiento">
+                <input type="date" class="form-control" placeholder="" name="fecha_de_nacimiento">
             </div>
             <div class="form-group">
                 <label>Sexo</label>
-                <div class="radio">
-                    <label class="radio-inline">
-                        <input type="radio" name="optradio">Hombre</label>
-                    <label class="radio-inline">
-                        <input type="radio" name="optradio">Mujer</label>
-            
-                    </div>
+                <select name="sexo">
+                <optgroup label="Entradas textuales">
+                    <option>Hombre</option>
+                    <option>Mujer</option>
+                    
+                   </optgroup>
+                     </select>
             </div>
                 <div class="form-group">
                 <label for="direccion">Direccion</label>
-                <input type="text" class="form-control" placeholder="Escribe tu direccion" id="direccion">
+                <input type="text" class="form-control" placeholder="Escribe tu direccion" name="direccion">
             </div>
             <div class="form-group">
                 <label for="sector">Sector</label>
-                <input type="text" class="form-control" placeholder="sector al que perteneces" id="sector">
+                <input type="text" class="form-control" placeholder="sector al que perteneces" name="sector">
+            </div>
+            <div class="form-group">
+                <label for="sector">Seccion</label>
+                <input type="text" class="form-control" placeholder="" name="seccion">
             </div>
             <div class="form-group">
                 <label for="municipio">Municipio</label>
-                <input type="text" class="form-control" placeholder="municipio al que perteneces" id="municipio">
+                <input type="text" class="form-control" placeholder="municipio al que perteneces" name="municipio">
             </div>
             <div class="form-group">
                 <label for="Provincia">Provincia</label><br>
-                <select name="entradalista1">
+                <select name="provincia">
                     <optgroup label="Entradas textuales">
-                    <option>Entrada de línea</option>
-                    <option selected="selected">Entrada de contraseña</option>
-                     <option>Entrada multi-línea</option>
+                    <option>Santiago</option>
+                     <option>La vega</option>
                    </optgroup>
                      </select>
             </div>
             <div class="form-group">
                 <label for="Pais">Pais de nacionalidad</label>
-                <select name="entradalista1">
+                <select name="pais">
                     <optgroup label="Entradas textuales">
-                    <option>Entrada de línea</option>
-                    <option selected="selected">Entrada de contraseña</option>
-                     <option>Entrada multi-línea</option>
+                    <option>Republica Dominicana</option>
+                     <option>Otro...</option>
                    </optgroup>
                      </select>
             </div>
             <div class="form-group">
                 <label for="telefono">Telefono residencial</label>
-                <input type="text" class="form-control" placeholder="telefono de residencia" id="telefonor">
+                <input type="text" class="form-control" placeholder="telefono de residencia" name="telefonor">
             </div>
             <div class="form-group">
                 <label for="movil">Telefono Movil</label>
-                <input type="text" class="form-control" placeholder="telefono movil" id="movil">
+                <input type="text" class="form-control" placeholder="telefono movil" name="movil">
             </div>
             <div class="form-group">
                 <label for="licencia">¿Posee licencia de conducir?</label>
-                <div class="radio">
-                    <label class="radio-inline">
-                        <input type="radio" name="optradio">Si</label>
-                    <label class="radio-inline">
-                        <input type="radio" name="optradio">No</label>
+                <select name="licencia">
+                    <optgroup label="Entradas textuales">
+                    <option>Si</option>
+                     <option>No</option>
+                   </optgroup>
+                     </select>
+                    
                 </div>
-            </div>
+        
             <div class="form-group">
                 <label for="vehiculo">¿Posee vehiculo propio?</label>
-                <div class="radio">
-                    <label class="radio-inline">
-                        <input type="radio" name="optradio">Si</label>
-                    <label class="radio-inline">
-                        <input type="radio" name="optradio">No</label>
-                </div>
+                <select name="vehiculo">
+                    <optgroup label="Entradas textuales">
+                    <option>Si</option>
+                     <option>No</option>
+                   </optgroup>
+</select>
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" placeholder="correo electronico" id="email">
+                <input type="email" class="form-control" placeholder="correo electronico" name="email">
             </div>
             <div class="form-group">
                 <label for="cemail">Confirmacion de email</label>
-                <input type="email" class="form-control" placeholder="confirme su correo electronico" id="emailc">
+                <input type="email" class="form-control" placeholder="confirme su correo electronico" name="emailc">
             </div>
             <div class="form-group">
                 <label for="contraseña">Elija una contraseña</label>
-                <input type="password" class="form-control" placeholder="escriba su contraseña" id="contraseña">
+                <input type="password" class="form-control" placeholder="escriba su contraseña" name="contraseña">
             </div>
             <div class="form-group">
                 <label for="contraseñac">Confirme contraseña</label>
-                <input type="password" class="form-control" placeholder="confirme su contraseña" id="contraseñac">
+                <input type="password" class="form-control" placeholder="confirme su contraseña" name="contraseñac">
             </div>
             <div class="form-group">
                 <label for="curriculum">Insertar curriculum</label>
-                <input type="file" class="form-control" >
+                <input type="file" class="form-control" name="curriculum">
             </div>
 
             <div class="clearfix"></div>
