@@ -205,23 +205,23 @@
 
 <div class="row">
     <div class="col-sm-6 col-md-4">
-        <a class="lightbox" href="">
+        <a class="lightbox" href="images/gat.png">
             <img src="images/galeria 3.jpg " width="100" heigh="100"alt="Bridge">
         </a>
     </div>
     <div class="col-sm-12 col-md-4">
-        <a class="lightbox" href="">
+        <a class="lightbox" href="images/info.png">
             <img src="images/galeria5.jpg" width="100" heigh="100" alt="Tunnel">
         </a>
     </div>
     <div class="col-sm-6 col-md-4">
-        <a class="lightbox" href="">
-            <img src="images/galeria1.jpg" width="100" heigh="100"alt="Coast">
+        <a class="lightbox" href="images/eba.png">
+            <img src="images/galeria8.jpg" width="100" heigh="100"alt="Coast">
         </a>
     </div>
     <div class="col-sm-6 col-md-4">
-        <a class="lightbox" href="">
-            <img src="images/galeria8.jpg"width="100" heigh="100" alt="Rails">
+        <a class="lightbox" href="images/diseño.png">
+            <img src="images/galeria1.jpg"width="100" heigh="100" alt="Rails">
         </a>
     </div>
     <div class="col-sm-6 col-md-4">
@@ -230,22 +230,22 @@
         </a>
     </div>
     <div class="col-sm-6 col-md-4">
-        <a class="lightbox" href="">
+        <a class="lightbox" href="images/electronica.png">
             <img src="images/galeria6.png" width="100" heigh="100"alt="Traffic">
         </a>
     </div>
     <div class="col-sm-6 col-md-4">
-        <a class="lightbox" href="">
-            <img src="images/galeria7.jpg"width="100" heigh="100" alt="Rocks">
+        <a class="lightbox" href="images/electricidad.png">
+            <img src="images/galeria 2.jpg"width="100" heigh="100" alt="Rocks">
         </a>
     </div>
     <div class="col-sm-6 col-md-4">
-        <a class="lightbox" href="">
-            <img src="images/galeria 2.jpg"width="100" heigh="100" alt="Benches">
+        <a class="lightbox" href="images/automotriz.png">
+            <img src="images/galeria7.jpg"width="100" heigh="100" alt="Benches">
         </a>
     </div>
     <div class="col-sm-6 col-md-4">
-        <a class="lightbox" href="">
+        <a class="lightbox" href="images/mecanica.png">
             <img src="images/galeria 4.jpg" width="100" heigh="100"alt="Sky">
         </a>
     </div>
