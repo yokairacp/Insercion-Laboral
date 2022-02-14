@@ -2,8 +2,8 @@
 require "cn.php";
 $conexion =conexion();
 
-
-$nombre_de_la_empresa = $_POST["nempresa"];
+if (!empty($_POST)) {
+    $nombre_de_la_empresa = $_POST["nempresa"];
 $nombre_del_puesto = $_POST["npuesto"];
 $funciones_o_perfil_del_puesto = $_POST["funciones"];
 $sueldo = $_POST["sueldo"];
@@ -22,7 +22,10 @@ $insertar = "INSERT INTO vacante(nombreempresa, nombrepuesto, funcionesoperfil, 
 $resultado = mysqli_query($conexion, $insertar);
 if($resultado){
     echo "<script>alert('Se ha registrado la vacante con exito')";
-    header('location:index.php');
+    header('location:tablavacante.php');
+} else {
+    echo "<script>alert('La vacante no se registro')";
+}
 } else {
     echo "<script>alert('La vacante no se registro')";
 }

@@ -1,5 +1,5 @@
 <?php
-require "cn1.php";
+require "cn.php";
 $conexion =conexion();
 
 
@@ -36,7 +36,7 @@ $insertar1 = "INSERT INTO egresado(añograduacion, institucioneducativa, curso, 
 $resultado = mysqli_query($conexion, $insertar1);
 if($resultado){
     echo "<script>alert('Se ha registrado el estudiante/egresado con exito')";
-    header('location:index.php');
+    header('location:tablaestudiante.php');
 } else {
     echo "<script>alert('El estudiante/egresado no se registro')";
 }
