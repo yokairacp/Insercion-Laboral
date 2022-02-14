@@ -54,7 +54,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand"><a class="brand" href="index.php">
-                      <div class="brand__name"><img src="images/.jpg">
+                      <div class="brand__name"><img src="images/logo.jfif">
                       </div><span class="brand__slogan">OILP-IPISA</span></a></div>
                 </div>
                 
@@ -105,7 +105,7 @@
                 <div class="layout-columns__main">
                   <div class="layout-columns__main-inner">
                     <!-- RD Mailform-->
-                    <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                    <form action="insertar4.php" method="POST" class="form_contact">
                       <div class="form-wrap">
                         <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
                         <label class="form-label" for="contact-name">Nombre</label>

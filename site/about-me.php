@@ -51,7 +51,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand"><a class="brand" href="index.php">
-                      <div class="brand__name"><img class="brand__logo-dark" src="images/" alt="" width="100" height="15"/><img class="brand__logo-light" src="images/lo.png" alt="" width="100" height="20"/>
+                      <div class="brand__name"><img class="brand__logo-dark" src="images/logo.jfif">
                       </div><span class="brand__slogan">OILP-IPISA</span></a></div>
                 </div>
                 <!-- RD Navbar Nav-->

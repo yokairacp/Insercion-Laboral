@@ -17,7 +17,7 @@
                    <span class="glyphicon glyphicon-user"></span>
                  </div>
 <div class="ContentForm">
-		 	<form action="" method="post" name="FormEntrar">
+<form action="insertar0.php" method="POST" class="form_contact">
 		 		<div class="input-group input-group-lg">
 				  <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
 				  <input type="email" class="form-control" name="correo" placeholder="Correo" id="Correo" aria-describedby="sizing-addon1" required>

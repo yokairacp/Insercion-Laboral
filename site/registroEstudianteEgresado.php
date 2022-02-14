@@ -14,24 +14,10 @@
     <div class="container" id="advanced-search-form">
         <h2>Registrate Estudiante o egresado</h2>
         <form action="insertar1.php" method="POST" class="form_contact">
-            <div class="form-group">
-                <label for="first-name">Institucion educativa a la que perteneces</label>
-                <select name="institucuin">
-                    <optgroup label="Instituciones">
-                    <option></option>
-                    <option selected="selected">IPISA</option>
-                   </optgroup>
-                     </select>
-            </div>
-            <div class="form-group">
-                <label for="last-name">Matricula</label>
-                <input type="text" class="form-control" placeholder="" name="matricula">
-            </div>
-            <div class="form-group">
+        <div class="form-group">
                 <label for="country">Año de graduacion </label><br>
                 <select name="graduacion">
                     <optgroup label="Años">
-                      <option selected="selected">  </option>
                     <option></option>
                     <option>2006-2011</option>
                      <option>2007-2012</option>
@@ -48,12 +34,22 @@
                     </optgroup>
                 </select>
             </div>
+            <div class="form-group">
+                <label for="first-name">Institucion educativa a la que perteneces</label>
+                <select name="institucion">
+                    <optgroup label="Instituciones">
+                    <option>IPISA</option>
+                    
+                   </optgroup>
+                     </select>
+            </div>
+        
             <br>
             <div class="form-group">
                 <label for="number">Curso</label>
-                <select name="entradalista1">
+                <select name="curso">
                 <optgroup label="Curso">
-                    <option selected="selected">  </option>
+            
                     <option>3RO</option>
                     <option>4TO</option>
                      <option>5TO</option>
@@ -61,6 +57,11 @@
                    </optgroup>
                      </select>
             </div>
+            <div class="form-group">
+                <label for="last-name">Matricula</label>
+                <input type="text" class="form-control" placeholder="" name="matricula">
+            </div>
+           
             <div class="form-group">
                 <label for="age">Cedula de identidad</label>
                 <input type="text" class="form-control" placeholder="cedula" name="cedula">
